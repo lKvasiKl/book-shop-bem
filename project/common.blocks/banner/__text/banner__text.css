@@ -1,0 +1,7 @@
+.banner__text
+{
+    position: absolute;
+    border-radius: 3px;
+    opacity: 95%;
+    background-color: white;
+}

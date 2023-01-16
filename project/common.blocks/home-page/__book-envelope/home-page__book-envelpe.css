@@ -1,0 +1,6 @@
+.home-page__book-envelope
+{
+    width: 280px;
+    display: inline-flex;
+    justify-content: center;
+}

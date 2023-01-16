@@ -1,0 +1,22 @@
+@import url('../page/__margin-wrapper/page__margin-wrapper.css');
+@import url('../page/_gap/page_gap.css');
+@import url('../page/__flex-wrapper/page__flex-wrapper.css');
+
+.page 
+{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+a
+{
+    color: #4283c0;
+}
+
+a:hover
+{
+    color: #e51907;;
+}

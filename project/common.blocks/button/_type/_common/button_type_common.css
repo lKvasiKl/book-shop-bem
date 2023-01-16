@@ -1,0 +1,14 @@
+.button_type_common
+{
+    background: #ccddee;
+    border: 0;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.button_type_common:hover
+{
+    background: #a4b0bd;
+}

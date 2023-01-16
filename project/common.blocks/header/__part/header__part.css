@@ -1,0 +1,9 @@
+@import url('../__part/_content/header__part_content.css');
+
+.header__part
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 14px 56px;
+}

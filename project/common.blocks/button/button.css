@@ -1,0 +1,13 @@
+@import url('../button/_type/button_type.css');
+@import url('../button/_part/button_part.css');
+@import url('../button/_size/button_size.css');
+@import url('../button/__wrapper/button__wrapper.css');
+
+.button
+{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+}

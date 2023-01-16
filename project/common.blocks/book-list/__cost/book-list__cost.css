@@ -1,0 +1,6 @@
+.book-list__cost
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

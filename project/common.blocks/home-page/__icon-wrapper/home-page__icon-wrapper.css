@@ -1,0 +1,6 @@
+.home-page__icon-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px 0;
+}

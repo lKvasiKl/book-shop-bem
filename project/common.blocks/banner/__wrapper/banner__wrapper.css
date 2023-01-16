@@ -1,0 +1,6 @@
+.banner__wrapper
+{
+    display: flex;
+    justify-content: center;
+    max-height: 300px;
+}

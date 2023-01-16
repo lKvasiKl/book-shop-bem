@@ -1,0 +1,6 @@
+.links-bar__link
+{
+    display: inline-flex;
+    align-items: flex-end;
+    padding: 0 10px;
+}

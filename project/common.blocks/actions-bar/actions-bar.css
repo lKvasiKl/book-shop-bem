@@ -1,0 +1,8 @@
+@import url('../actions-bar/__item/actions-bar__item.css');
+
+.actions-bar
+{
+    display: flex;
+    align-items: flex-end;
+    gap: 0 20px;
+}

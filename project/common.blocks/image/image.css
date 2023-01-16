@@ -1,0 +1,11 @@
+@import url('../image/__book-wrapper/image__book-wrapper.css');
+@import url('../image/_type/image_type.css');
+@import url('../image/_size/image_size.css');
+@import url('../image/__margin-container/image__margin-container.css');
+@import url('../image/__wrapper/image__wrapper.css');
+
+.image
+{
+    max-width: 100%;
+    max-height: 100%;
+}

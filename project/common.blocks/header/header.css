@@ -1,0 +1,9 @@
+@import url('../header/__part/header__part.css');
+@import url('../header/__search/header__search.css');
+@import url('../header/__links-bar/header__links-bar.css');
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+}

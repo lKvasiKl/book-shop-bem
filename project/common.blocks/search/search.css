@@ -1,0 +1,8 @@
+@import url('../search/__input/search__input.css');
+
+.search
+{
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
