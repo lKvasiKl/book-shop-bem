@@ -1,5 +1,5 @@
-.home-page__stiker-wrapper
-{
-    display: inline-flex;
-    margin-bottom: 50px;
+@media (max-width: 1400px) {
+    .home-page__stiker-wrapper {
+        order: 1;
+    }
 }

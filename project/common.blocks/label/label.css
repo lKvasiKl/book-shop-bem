@@ -1,7 +1,6 @@
 @import url('../label/_theme/label_theme.css');
 
-.label
-{
+.label {
     width: fit-content;
     padding: 3px 6px;
     margin-left: 20px;

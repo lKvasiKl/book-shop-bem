@@ -1,4 +1,5 @@
-.text_wrapper_800px
-{
+.text_wrapper_800px {
     max-width: 800px;
+    text-align: center;
+    margin: 15px auto;
 }

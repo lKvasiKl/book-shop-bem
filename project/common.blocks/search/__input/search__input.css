@@ -1,7 +1,6 @@
 @import url('../__input/_size/search__input_size.css');
 
-.search__input
-{
+.search__input {
     border: none;
     outline: none;
     background-color: transparent;

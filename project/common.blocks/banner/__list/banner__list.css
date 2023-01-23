@@ -1,5 +1,4 @@
-.banner__list
-{
+.banner__list {
     display: flex;
     gap: 0 15px;
     padding: 15px;

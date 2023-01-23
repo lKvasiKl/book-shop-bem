@@ -4,8 +4,14 @@
 @import url('../banner/__list/banner__list.css');
 @import url('../banner/__wrapper/banner__wrapper.css');
 
-.banner
-{
+.banner {
     display: inline-flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 1140px) {
+    .banner {
+        display: none;
+    }
 }

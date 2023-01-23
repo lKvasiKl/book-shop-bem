@@ -1,0 +1,10 @@
+.home-page__stiker-group {
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 541px) {
+    .home-page__stiker-group {
+        display: block;
+    }
+}

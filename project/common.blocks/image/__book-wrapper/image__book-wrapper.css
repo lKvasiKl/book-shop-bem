@@ -1,11 +1,9 @@
-.image__book-wrapper
-{
+.image__book-wrapper {
     width: 198px;
     height: auto;
     transition: 0.5s;
 }
 
-.image__book-wrapper:hover
-{
+.image__book-wrapper:hover {
     transform: scale(1.1);
 }

@@ -1,4 +1,15 @@
-.image_type_book-of-week
-{
+.image_type_book-of-week {
     border-radius: 0 5px 5px 0;
+}
+
+@media (max-width: 541px) {
+    .image_type_book-of-week {
+        width: 330px;
+    }
+}
+
+@media (max-width: 360px) {
+    .image_type_book-of-week {
+        width: 250px;
+    }
 }

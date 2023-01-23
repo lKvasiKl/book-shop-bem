@@ -1,11 +1,8 @@
 @import url('../book-list/__item/book-list__item.css');
 @import url('../book-list/__cost/book-list__cost.css');
+@import url('../book-list/__wrapper/book-list__wrapper.css');
 
-.book-list
-{
+.book-list {
     display: flex;
-    gap: 0 15px;
-    padding: 15px;
-    margin-bottom: 70px;
     overflow-x: auto;
 }

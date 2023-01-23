@@ -1,7 +1,6 @@
 @import url('../input/__wrapper/input__wrapper.css');
 
-.input
-{
+.input {
     font-size: 20px;
     padding: 10px 2px;
 }

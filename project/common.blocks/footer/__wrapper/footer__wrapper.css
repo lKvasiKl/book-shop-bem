@@ -1,6 +1,14 @@
-.footer__wrapper
-{
+.footer__wrapper {
+    display: inline-flex;
     text-align: center;
-    padding: 20px 0 30px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 50px;
     gap: 50px;
+}
+
+@media (max-width: 610px) {
+    .footer__wrapper {
+        display: block;
+    }
 }

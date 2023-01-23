@@ -1,7 +1,6 @@
 @import url('../__stiker/_position/home-page__stiker_position.css');
 
-.home-page__stiker
-{
+.home-page__stiker {
     position: relative;
     display: flex;
     justify-content: center;

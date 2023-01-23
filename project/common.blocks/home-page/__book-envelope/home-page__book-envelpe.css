@@ -1,6 +1,29 @@
-.home-page__book-envelope
-{
-    width: 280px;
-    display: inline-flex;
-    justify-content: center;
+.home-page__book-envelope {
+    width: 270px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+.home-page__book-envelope::after,
+.home-page__book-envelope::before {
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 276px;
+    position: absolute;
+    background-position: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.home-page__book-envelope::before {
+    background-image: url(../../../../images/letter-cover.png);
+    z-index: -1;
+}
+
+.home-page__book-envelope::after {
+    background-image: url(../../../../images/letter-bg.png);
+    z-index: 1;
 }

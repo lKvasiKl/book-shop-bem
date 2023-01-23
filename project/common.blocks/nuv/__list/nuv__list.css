@@ -1,0 +1,7 @@
+.nuv__list {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 8px 0;
+}

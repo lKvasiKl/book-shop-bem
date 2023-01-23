@@ -4,3 +4,15 @@
 @import url('../text/_size/text_size.css');
 @import url('../text/_wrapper/text_wrapper.css');
 @import url('../text/_margin/text_margin.css');
+@import url('../text/__conatiner/text__container.css');
+
+.text {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1400px) {
+    .text {
+        text-align: center;
+    }
+}

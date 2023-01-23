@@ -1,6 +1,5 @@
-.image_type_book
-{
-    height: 297px !important;
+.image_type_book {
+    height: 297px;
     box-shadow: 0 25px 25px -15px lightgrey;
     border: 1px solid rgb(245, 245, 245);
 }

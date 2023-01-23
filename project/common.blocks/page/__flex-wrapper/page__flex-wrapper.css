@@ -1,7 +1,10 @@
-@import url('../__flex-wrapper/_wrap/page__flex-wrapper_wrap.css');
-
-.page__flex-wrapper
-{
+.page__flex-wrapper {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 1400px) {
+    .page__flex-wrapper {
+        flex-wrap: wrap;
+    }
 }

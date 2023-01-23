@@ -1,4 +1,4 @@
-.banner__item
-{
+.banner__item {
     position: relative;
+    height: fit-content;
 }

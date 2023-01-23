@@ -3,7 +3,6 @@
 @import url('../common.blocks/search/search.css');
 @import url('../common.blocks/actions-bar/actions-bar.css');
 @import url('../common.blocks/location/location.css');
-@import url('../common.blocks/links-bar/links-bar.css');
 @import url('../common.blocks/home-page/home-page.css');
 @import url('../common.blocks/banner/banner.css');
 @import url('../common.blocks/image/image.css');
@@ -16,4 +15,5 @@
 @import url('../common.blocks/input/input.css');
 @import url('../common.blocks/pagination/pagination.css');
 @import url('../common.blocks/footer/footer.css');
-@import url('../common.blocks/text/text.css')
+@import url('../common.blocks/text/text.css');
+@import url('../common.blocks/nuv/nuv.css');

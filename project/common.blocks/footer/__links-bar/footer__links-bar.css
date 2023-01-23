@@ -1,6 +1,6 @@
-.footer__links-bar
-{
+.footer__links-bar {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start !important;
     gap: 10px;
 }

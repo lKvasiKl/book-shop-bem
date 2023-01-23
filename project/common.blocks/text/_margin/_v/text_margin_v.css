@@ -1,4 +1,3 @@
-.text_margin_v
-{
-    margin: 15px 0;
+.text_margin_v {
+    margin: 15px auto;
 }

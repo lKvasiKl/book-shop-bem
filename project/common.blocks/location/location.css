@@ -1,4 +1,6 @@
-.location
-{
-    align-items: flex-start;
+.location {
+    max-width: 140px;
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
 }

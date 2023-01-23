@@ -1,6 +1,14 @@
-.banner__wrapper
-{
+.banner__wrapper {
+    width: 100%;
     display: flex;
+    overflow: hidden;
     justify-content: center;
-    max-height: 300px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+@media (max-width: 1140px) {
+    .banner__wrapper {
+        max-height: 240px;
+    }
 }

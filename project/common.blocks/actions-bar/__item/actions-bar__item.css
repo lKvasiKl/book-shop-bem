@@ -1,8 +1,7 @@
-@import url('../__item/_size/actions-bar__item_size.css');
-
-.actions-bar__item
-{
+.actions-bar__item {
+    width: 65px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    word-break: break-all;
 }

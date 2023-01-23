@@ -1,14 +1,12 @@
-.pagination_type_dot
-{
-    border: 1px solid #808080; 
-    border-radius: 50px; 
+.pagination_type_dot {
+    border: 1px solid #808080;
+    border-radius: 50px;
     width: 5px;
     height: 5px;
     margin: 3px;
     cursor: pointer;
 }
 
-.pagination_type_dot:hover
-{
+.pagination_type_dot:hover {
     background: #616161;
 }

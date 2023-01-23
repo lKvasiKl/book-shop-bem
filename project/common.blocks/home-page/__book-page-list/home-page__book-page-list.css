@@ -1,7 +1,6 @@
-.home-page__book-page-list
-{
+.home-page__book-page-list {
     display: flex;
     overflow-x: auto;
     max-height: 601px;
-    padding-top: 21px;
+    padding-top: 25px;
 }
