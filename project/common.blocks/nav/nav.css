@@ -1,0 +1,14 @@
+@import url('../nav/__list/nav__list.css');
+@import url('../nav/__item/nav__item.css');
+@import url('../nav/__link/nav__link.css');
+
+.nav {
+    display: flex;
+    text-align: center;
+}
+
+@media (max-width: 610px) {
+    .nav {
+        margin: 15px 0;
+    }
+}
