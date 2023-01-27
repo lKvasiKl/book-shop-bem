@@ -1,0 +1,10 @@
+.title-48 {
+    font-size: 48px;
+    text-align: left;
+}
+
+@media (max-width: 1400px) {
+    .title-48 {
+        text-align: center;
+    }
+}

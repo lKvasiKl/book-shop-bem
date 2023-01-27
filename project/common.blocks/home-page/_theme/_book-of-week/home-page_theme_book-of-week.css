@@ -1,7 +1,6 @@
 .home-page_theme_book-of-week {
-    justify-content: center;
     background-color: #fcf5ef;
     margin: 50px 0;
-   
+    padding: 30px 0;
     gap: 40px;
 }

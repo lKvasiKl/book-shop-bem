@@ -3,7 +3,7 @@
     margin-bottom: 50px;
 }
 
-@media (max-width: 541px) {
+@media (max-width: 540px) {
     .home-page__stiker-group {
         display: block;
     }

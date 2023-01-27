@@ -1,13 +1,12 @@
-@import url('../text/_color/text_color.css');
-@import url('../text/_decoration/text_decoration.css');
-@import url('../text//_position/text_position.css');
 @import url('../text/_size/text_size.css');
-@import url('../text/_wrapper/text_wrapper.css');
-@import url('../text/_margin/text_margin.css');
 @import url('../text/__conatiner/text__container.css');
 
 .text {
     display: block;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 

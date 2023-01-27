@@ -2,7 +2,7 @@
     margin-left: -25px;
 }
 
-@media (max-width: 541px) {
+@media (max-width: 540px) {
     .home-page__stiker_position_left {
         margin-left: 0;
         margin-top: -30px;

@@ -1,4 +1,10 @@
-.heder__part_space-between {
+.heder__part_space-between.heder__part_space-between {
     margin: 15px 0;
-    justify-content: space-between !important;
+    justify-content: space-between;
+}
+
+@media (max-width: 670px) {
+    .heder__part_space-between.heder__part_space-between {
+        justify-content: center;
+    }
 }

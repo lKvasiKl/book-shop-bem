@@ -17,3 +17,12 @@
 @import url('../common.blocks/footer/footer.css');
 @import url('../common.blocks/text/text.css');
 @import url('../common.blocks/nav/nav.css');
+@import url('../common.blocks/book-item-text/book-item-text.css');
+@import url('../common.blocks/text-20/text-20.css');
+@import url('../common.blocks/text-info/text-info.css');
+@import url('../common.blocks/text-quote/text-quote.css');
+@import url('../common.blocks/text-letter-spacing/text-letter-spacing.css');
+@import url('../common.blocks/text-800/text-800.css');
+@import url('../common.blocks/title-20/title-20.css');
+@import url('../common.blocks/title-35/title-35.css');
+@import url('../common.blocks/title-48/title-48.css');

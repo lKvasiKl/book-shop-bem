@@ -2,8 +2,6 @@
     max-height: 100%;
 }
 
-
-
 @media (max-width: 540px) {
     .image_type_banner {
         max-height: 240px;

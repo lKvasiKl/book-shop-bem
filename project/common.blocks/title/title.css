@@ -1,13 +1,3 @@
-@import url('../title/_position/title_position.css');
-
 .title {
-    display: flex;
     text-align: center;
-    margin: 15px 0;
-}
-
-@media (max-width: 1400px) {
-    .title {
-        justify-content: center;
-    }
 }

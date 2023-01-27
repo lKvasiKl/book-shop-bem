@@ -7,7 +7,7 @@
     height: 40px;
 }
 
-@media (max-width: 541px) {
+@media (max-width: 540px) {
     .footer__line {
         padding-left: 100px;
     }

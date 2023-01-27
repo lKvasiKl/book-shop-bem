@@ -3,7 +3,7 @@
 }
 
 .cost_strikethrough:before {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #ff0000;
     position: absolute;
     content: "";
     width: 100%;
