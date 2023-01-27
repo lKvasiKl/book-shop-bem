@@ -1,0 +1,20 @@
+@import url('../actions-bar/__item/actions-bar__item.css');
+
+.actions-bar {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+@media (max-width: 670px) {
+    .actions-bar {
+        justify-content: center;
+        order: -1;
+    }
+}
+
+@media (max-width: 440px) {
+    .actions-bar {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,17 @@
+@import url('../page/__margin-wrapper/page__margin-wrapper.css');
+@import url('../page/_gap/page_gap.css');
+@import url('../page/__flex-wrapper/page__flex-wrapper.css');
+@import url('../page/__news-list/page__news-list.css');
+
+.page {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4283c0;
+}
+
+a:hover {
+    color: #e51907;
+}

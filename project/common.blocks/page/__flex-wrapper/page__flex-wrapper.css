@@ -1,0 +1,10 @@
+.page__flex-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1400px) {
+    .page__flex-wrapper {
+        flex-wrap: wrap;
+    }
+}

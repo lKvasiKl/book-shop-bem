@@ -1,0 +1,7 @@
+.button_color_secondary {
+    background: #e7e7e7cc;
+}
+
+.button_color_secondary:hover {
+    background: #bebebecc;
+}

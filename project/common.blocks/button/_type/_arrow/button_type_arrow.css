@@ -1,0 +1,30 @@
+.button_type_arrow {
+    width: 280px;
+    color: white;
+    border-radius: 3px 0 0 3px;
+    background: linear-gradient(to right, #3373f5 89.74%, transparent 0);
+    margin: 20px 0;
+    border: 0;
+}
+
+.button_type_arrow::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 30px solid #3373f5;
+    border-bottom: 40px solid transparent;
+}
+
+@media (max-width: 1400px) {
+    .button_type_arrow {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 360px) {
+    .button_type_arrow {
+        width: 240px;
+        background: linear-gradient(to right, #3373f5 87.54%, transparent 0);
+    }
+}

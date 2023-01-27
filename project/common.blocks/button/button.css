@@ -1,0 +1,12 @@
+@import url('../button/_type/button_type.css');
+@import url('../button/_size/button_size.css');
+@import url('../button/_color/button_color.css');
+@import url('../button/__wrapper/button__wrapper.css');
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}

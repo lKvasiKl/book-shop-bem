@@ -1,0 +1,17 @@
+@import url('../banner/__image/banner__image.css');
+@import url('../banner/__item/banner__item.css');
+@import url('../banner/__text/banner__text.css');
+@import url('../banner/__list/banner__list.css');
+@import url('../banner/__wrapper/banner__wrapper.css');
+
+.banner {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 1140px) {
+    .banner {
+        display: none;
+    }
+}

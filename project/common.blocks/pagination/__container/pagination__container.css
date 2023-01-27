@@ -1,0 +1,59 @@
+.pagination__container {
+    overflow: hidden;
+    max-height: 447px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 290px) {
+    .pagination__container {
+        max-height: 580px;
+    }
+}
+
+@media (min-width: 290px) and (max-width: 335px) {
+    .pagination__container {
+        max-height: 610px;
+    }
+}
+
+@media (min-width: 336px) and (max-width: 358px) {
+    .pagination__container {
+        max-height: 625px;
+    }
+}
+
+@media (min-width: 359px) and (max-width: 390px) {
+    .pagination__container {
+        max-height: 645px;
+    }
+}
+
+@media (min-width: 388px) and (max-width: 420px) {
+    .pagination__container {
+        max-height: 660px;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 455px) {
+    .pagination__container {
+        max-height: 683px;
+    }
+}
+
+@media (min-width: 456px) and (max-width: 540px) {
+    .pagination__container {
+        max-height: 700px;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 660px) {
+    .pagination__container {
+        max-height: 740px;
+    }
+}
+
+@media (min-width: 661px) and (max-width: 1274px) {
+    .pagination__container {
+        max-height: 800px;
+    }
+}

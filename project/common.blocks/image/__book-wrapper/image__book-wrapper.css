@@ -1,0 +1,8 @@
+.image__book-wrapper {
+    width: 198px;
+    transition: 0.5s;
+}
+
+.image__book-wrapper:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,23 @@
+.image_type_banner {
+    max-height: 100%;
+}
+
+@media (max-width: 540px) {
+    .image_type_banner {
+        max-height: 240px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .image_type_banner {
+        max-height: 240px;
+    }
+}
+
+@media (max-width: 360px) {
+    .image_type_banner {
+        max-height: 200px;
+        margin-left: 180px;
+    }
+}

@@ -1,0 +1,6 @@
+.pagination__slide {
+    overflow: auto;
+    height: fit-content;
+    margin: 15px;
+    gap: 25px;
+}

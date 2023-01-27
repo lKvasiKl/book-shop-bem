@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEM</title>
+  <link rel="stylesheet" href="project/project.css">
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__part heder__part_space-between">
+      <div class="search header__search">
+        <img src="images/search.svg" alt="search" />
+        <input class="search__input search__input_size_s" type="text" placeholder="Поиск книги по названию и автору">
+      </div>
+      <div class="actions-bar">
+        <a href="#">
+          <div class="actions-bar__item">
+            <img class="image_size_s" src="images/door.png" alt="door" />
+            <p class="text">Войти</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="actions-bar__item">
+            <img class="image_size_s" src="images/star.png" alt="star" />
+            <p class="text">Вишлист</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="actions-bar__item">
+            <img class="image_size_s" src="images/cart.png" alt="cart" />
+            <p class="text">Корзина</p>
+          </div>
+        </a>
+        <div class="location">
+          <a href="#">Москва</a>
+          <a href="#">Условия доставки ></a>
+        </div>
+      </div>
+    </div>
+    <div class="header__part">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Книги</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Курсы</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Авторам</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">
+              <img width="19px" height="16px" class="image_size_extra-s" src="images/menu-icon.png" alt="gift menu item" />
+              Подарочные карты
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Штуки</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Игры</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Блог МИФа</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">МИФ для бизнеса</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Мероприятия</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Книжные боксы</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Скидки</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Развлечения</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Об издательстве</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__part">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Аудиокниги</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Проза</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Детство</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Психология</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Бизнес</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Культура</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Саморазвитие</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Лайфстайл</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Творчество</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Комиксы</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Здоровье и медицина</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Научпоп</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Подарки</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Маркетинг</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="home-page">
+    <div class="home-page__promo">
+      <div class="banner__wrapper">
+        <img width="2480px" height="380px" class="image_type_banner" src="images/banner.jpg" alt="banner" />
+      </div>
+      <div class="banner">
+        <div class="banner__item">
+          <img width="270px" height="180px" class="image banner__image" src="images/banner2.jpg" alt="banner" />
+          <a href="#" class="banner__text">
+            Книжные боксы и фанпеки →
+          </a>
+        </div>
+        <div class="banner__item">
+          <img width="270px" height="180px" class="image banner__image" src="images/banner3.jpg" alt="banner" />
+          <a href="#" class="banner__text">
+            Курс для тех, кто мечтает издать книгу →
+          </a>
+        </div>
+      </div>
+    </div>
+    <section class="home-page__wrapper page__margin-wrapper_ver">
+      <h2 class="text title-35 title"><a href="#">ТОП-10: что сейчас читают</a></h2>
+      <div class="book-list book-list__wrapper">
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image__book-wrapper image_type_book" src="images/book.png" alt="Книга Японские мифы" />
+          </a>
+          <span class="text book-item-text">
+            Ключ к пониманию современной японской культуры
+          </span>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book2.png" alt="Книга Трачу и приобретаю" />
+          </a>
+          <span class="text book-item-text">
+            От финансового консультанта с многолетним опытом
+          </span>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book3.png" alt="Книга Славянские мифы" />
+          </a>
+          <span class="text book-item-text">
+            Тайны славянского язычества
+          </span>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book4.png" alt="Книга Выбор" />
+          </a>
+          <span class="text book-item-text">
+            История об исцилении и силе человеческого духа
+          </span>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book3.png" alt="Книга Славянские мифы" />
+          </a>
+          <span class="text book-item-text">
+            Тайны славянского язычества
+          </span>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book5.png" alt="Книга Поговорим о нас" />
+          </a>
+          <span class="text book-item-text">
+            Практиеское руководство по разрешению разногласий
+          </span>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="180px" class="image image__book-wrapper" src="images/box.png" alt="Книга Бокс меняющий жизнь" />
+          </a>
+          <span class="text book-item-text">
+            Комплект, меняющий жизнь
+          </span>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book6.png" alt="Книга Когда порвется нить" />
+          </a>
+          <span class="text book-item-text">
+            Что, если каждый человек узнает сколько ему осталось жить
+          </span>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="180px" class="image image__book-wrapper" src="images/box2.png" alt="Бокс для практик самопознания" />
+          </a>
+          <span class="text book-item-text">
+            Все для практик самопознания
+          </span>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book  image__book-wrapper" src="images/book7.png" alt="Книга Исскуство маленьких шагов" />
+          </a>
+          <span class="text book-item-text">
+            Практики для достижения осознанности и гармонии
+          </span>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="150px" class="image image__book-wrapper" src="images/calendar.png" alt="Календарь" />
+          </a>
+          <span class="text book-item-text">
+            Настенный календарь с любимым героем Лапиным в год Кролика
+          </span>
+        </div>
+      </div>
+    </section>
+    <section class="home-page__wrapper page__margin-wrapper_ver">
+      <h2 class="text title-35 title"><a href="#">Новинки</a></h2>
+      <div class="book-list book-list__wrapper">
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px"  class="image image_type_book image__book-wrapper" src="images/book8.png" alt="Книга Чувство любви" />
+          </a>
+          <span class="text book-item-text">
+            От легендарного психотерапевта и основателя эмоционально-фокусированной терапии
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">1080 ₽</span>
+            <span class="cost"><b>857 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px"  class="image image__book-wrapper" src="images/book11.png" alt="Книга Великая китайская кухня" />
+          </a>
+          <span class="text book-item-text">
+            Невероятное кулинарное путешествие по Китаю
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">5157 ₽</span>
+            <span class="cost"><b>4383 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px"  class="image image_type_book image__book-wrapper" src="images/book9.png" alt="Книга Магия утра" />
+          </a>
+          <span class="text book-item-text">
+            30-дневная программа достижения успеха, подходящая для всех
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">1080 ₽</span>
+            <span class="cost"><b>857 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px"  class="image image_type_book image__book-wrapper" src="images/book10.png" alt="Книга Религия будущего" />
+          </a>
+          <span class="text book-item-text">
+            Синтез науки и религии
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">2510 ₽</span>
+            <span class="cost"><b>1987 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px"  class="image image_type_book image__book-wrapper" src="images/postcard.png" alt="Открытка" />
+          </a>
+          <span class="text book-item-text">
+            Открытка-победитель конкурса «Новогодний миф 2022»
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">208 ₽</span>
+            <span class="cost"><b>177 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px"  class="image image_type_book image__book-wrapper" src="images/postcard2.png" alt="Открытка" />
+          </a>
+          <span class="text book-item-text">
+            Открытка-победитель конкурса «Новогодний миф 2022»
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">208 ₽</span>
+            <span class="cost"><b>177 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="180px"  class="image image__book-wrapper" src="images/box3.png" alt="Секретный бокс" />
+          </a>
+          <span class="text book-item-text">
+            Секретный бокс для всех, кто хочет порадовать себя и близких
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">3892 ₽</span>
+            <span class="cost"><b>3308 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px"  class="image image_type_book image__book-wrapper" src="images/book13.png" alt="Книга Авейра" />
+          </a>
+          <span class="text book-item-text">
+            Масштабная и эпичная история, поражающая глубиной магического мира
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">1105 ₽</span>
+            <span class="cost"><b>939 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px"  class="image image_type_book image__book-wrapper" src="images/book12.png" alt="Книга Взлом стратегии" />
+          </a>
+          <span class="text book-item-text">
+            Бизнес-кейсы Netflix, Marvel, Amazon, Apple и многих других
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">1397 ₽</span>
+            <span class="cost"><b>1187 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px"  class="image image__book-wrapper" src="images/book14.png"
+              alt="Книга Великолепный век османского искусства" />
+          </a>
+          <span class="text book-item-text">
+            Шесть веков османского искусства и его отголоски в современности
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">1508 ₽</span>
+            <span class="cost"><b>1282 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="180px"  class="image image__book-wrapper" src="images/box2.png" alt="Бокс для практик самопознания" />
+          </a>
+          <span class="text book-item-text">
+            Все для практик самопознания
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">5977 ₽</span>
+            <span class="cost"><b>5080 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="180px"  class="image image__book-wrapper" src="images/box4.png" alt="Бокс для поклонников комиксов" />
+          </a>
+          <span class="text book-item-text">
+            Отличный подарок поклоннику комиксов
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">6255 ₽</span>
+            <span class="cost"><b>5317 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="180px"  class="image image__book-wrapper" src="images/box6.png" alt="Бокс школьный" />
+          </a>
+          <span class="text book-item-text">
+            Поможет полюбить географию, физику химию и биологию
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">4865 ₽</span>
+            <span class="cost"><b>4135 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="180px"  class="image image__book-wrapper" src="images/box7.png" alt="Бокс новогоднее чудо" />
+          </a>
+          <span class="text book-item-text">
+            Для любителей новогодних чудес от 5 лет
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">4865 ₽</span>
+            <span class="cost"><b>4135 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="180px"  class="image image__book-wrapper" src="images/box5.png" alt="Бокс три разные истории" />
+          </a>
+          <span class="text book-item-text">
+            Три разные, но прекрасные истории о жизни и любви
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">6380 ₽</span>
+            <span class="cost"><b>5423 ₽</b></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page__flex-wrapper home-page_theme_book-of-week">
+      <a class="home-page__link" href="#">
+        <p class="text label label_theme_book-of-week">НОВИНКА НЕДЕЛИ</p>
+        <img width="422px" height="543px"  class="image_type_book-of-week" src="images/book15.png" alt="Книга Живу как хочу" />
+      </a>
+      <div class="home-page__stiker-wrapper">
+        <h2 class="text title-48 title">Живу как хочу</h2>
+        <p class="text text-20">Принять прошлое и обрести себя в настоящем</p>
+        <div class="home-page__stiker-group">
+          <div class="home-page__stiker">
+            <img width="180px" height="180px"  src="images/blue.png" alt="blue stiker" />
+            <span class="text home-page__stiker-text">
+              Поможет уверенно взглянть в будщее, наладив отношение с собой
+            </span>
+          </div>
+          <div class="home-page__stiker home-page__stiker_position_left">
+            <img width="180px" height="180px"  src="images/orange.png" alt="orange stiker" />
+            <span class="text home-page__stiker-text">
+              От психотерапевта с академическим европейским образованием
+            </span>
+          </div>
+          <div class="home-page__stiker home-page__stiker_position_left">
+            <img width="180px" height="180px"  src="images/purple.png" alt="purple stiker" />
+            <span class="text home-page__stiker-text">
+              Практика для психологического самоисследования
+            </span>
+          </div>
+        </div>
+        <button class="button button_type_arrow">
+          Почитать отзывы, рецензии и купить книгу
+        </button>
+      </div>
+      <div>
+        <h2 class="text title-35 title">Цитата из книги</h2>
+        <h3 class="text title-20 title">Что может не случиться</h3>
+        <p class="text text-quote">
+          Терапевт — это лишь символ. Символ того, что может не случиться. Страшно не найти себя. Страшно найти себя и
+          потерять. Страшно потерять время, cтрашно, что будет поздно найти себя. Что закончатся силы на поиски.
+          Страшно, что, даже если и найдешь, уже собой не насладишься.
+        </p>
+      </div>
+    </section>
+    <section>
+      <h2 class="title title-35 title">МИФ доставит книги к вам домой</h2>
+      <div class="page__flex-wrapper">
+        <div class="page__flex-wrapper home-page__icon-wrapper">
+          <img width="280px" height="100px"  class="image image_type_icon" src="images/cart.svg" alt="cart" />
+          <span class="text text-info">
+            Покупайте книги на сайте в любимом формате — бумажные, электронные или аудио.
+          </span>
+        </div>
+        <div class="home-page__icon-wrapper">
+          <img width="280px" height="100px"  class="image image_type_icon" src="images/present.svg" alt="precent" />
+          <span class="text text-info">
+            Добавим <a href="#">подарок</a> в каждый заказ.
+          </span>
+        </div>
+        <div class="home-page__icon-wrapper">
+          <img width="280px" height="100px"  class="image image_type_icon" src="images/truck.svg" alt="truck" />
+          <span class="text text-info">
+            Бесплатно доставляем заказы от 3 000 ₽ до 10 000 ₽ по всей России.
+          </span>
+        </div>
+        <div class="home-page__icon-wrapper">
+          <img width="280px" height="100px"  class="image image_type_icon" src="images/russia.svg" alt="russia" />
+          <span class="text text-info">
+            Доставка в более чем 300 городов России, по Москве и Санкт-Петербургу — бесплатно.
+          </span>
+        </div>
+      </div>
+    </section>
+    <div class="banner__list">
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner3.jpg" alt="banner" />
+        <a href="#" class="banner__text">
+          ЦЕХ № 3. Курс для тех, кто мечтает издать книгу
+        </a>
+      </div>
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner14.png" alt="banner" />
+        <a href="#" class="banner__text">
+          Дарим саммари. И море полезных писем
+        </a>
+      </div>
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner4.jpg" alt="banner" />
+        <a href="#" class="banner__text">
+          Книги про любовь и отношения
+        </a>
+      </div>
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner5.jpg" alt="banner" />
+        <a href="#" class="banner__text">
+          Электронные книги для компаний
+        </a>
+      </div>
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner6.png" alt="banner" />
+        <a href="#" class="banner__text">
+          Легендарные Японские тетради Kumon
+        </a>
+      </div>
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner7.png" alt="banner" />
+        <a href="#" class="banner__text">
+          Лучшие аудиокниги МИФа
+        </a>
+      </div>
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner8.png" alt="banner" />
+        <a href="#" class="banner__text">
+          Понять, что я хочу изменить в своей жизни
+        </a>
+      </div>
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner9.png" alt="banner" />
+        <a href="#" class="banner__text">
+          Подарочные книги
+        </a>
+      </div>
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner10.jpg" alt="banner" />
+        <a href="#" class="banner__text">
+          Дерево знаний
+        </a>
+      </div>
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner11.png" alt="banner" />
+        <a href="#" class="banner__text">
+          Прокачать навыки будущего
+        </a>
+      </div>
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner12.jpg" alt="banner" />
+        <a href="#" class="banner__text">
+          Дизайн-мышление
+        </a>
+      </div>
+      <div class="banner__item">
+        <img width="270px" height="180px" class="banner__image" src="images/banner13.jpg" alt="banner" />
+        <a href="#" class="banner__text">
+          Бирюзовые организации будущего
+        </a>
+      </div>
+    </div>
+    <section>
+      <h2 class="text title-35 title"><a href="#">Детские книги</a></h2>
+      <div class="home-page_theme_children-book">
+        <div class="page__flex-wrapper">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_book-of-week">НОВИНКА НЕДЕЛИ</p>
+            <img width="422px" height="601px" class="image_type_book-of-week" src="images/book16.png" alt="Ёлка, пряники, подарки" />
+          </a>
+          <div class="home-page__book-page-list">
+            <img width="1000px" height="584px" src="images/book-page.jpg" alt="book-page">
+            <img width="1000px" height="584px" src="images/book-page2.jpg" alt="book-page">
+            <img width="1000px" height="584px" src="images/book-page3.jpg" alt="book-page">
+            <img width="1000px" height="584px" src="images/book-page4.jpg" alt="book-page">
+          </div>
+        </div>
+        <button class="button button_type_arrow">
+          Почитать отзывы, рецензии и купить книгу
+        </button>
+      </div>
+      <div class="book-list book-list__wrapper">
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="180px" class="image image__book-wrapper" src="images/box6.png" alt="Бокс школьный" />
+          </a>
+          <span class="text book-item-text">
+            Поможет полюбить географию, физику химию и биологию
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">4865 ₽</span>
+            <span class="cost"><b>4135 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="180px" class="image image__book-wrapper" src="images/box7.png" alt="Бокс новогоднее чудо" />
+          </a>
+          <span class="text book-item-text">
+            Для любителей новогодних чудес от 5 лет
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">4865 ₽</span>
+            <span class="cost"><b>4135 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book17.png" alt="Мы играли с огнем" />
+          </a>
+          <span class="text book-item-text">
+            Мистическая, романтическая и увлекательная история
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">1105 ₽</span>
+            <span class="cost"><b>939 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book18.png" alt="Динозавры" />
+          </a>
+          <span class="text book-item-text">
+            60 видов динозавров и глоссарий палеонтолога в энциклопедии сверхкрупного формата
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">2134 ₽</span>
+            <span class="cost"><b>1814 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image__book-wrapper" src="images/book19.png" alt="Развитие мелкой моторики" />
+          </a>
+          <span class="text book-item-text">
+            Программа для развития мелкой моторики
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">2649 ₽</span>
+            <span class="cost"><b>2252 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image__book-wrapper" src="images/book20.png" alt="Разносторонее развитие" />
+          </a>
+          <span class="text book-item-text">
+            Универсальная программа для разностороннего развития
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">2699 ₽</span>
+            <span class="cost"><b>2294 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book21.png" alt="Королевство насекомых" />
+          </a>
+          <span class="text book-item-text">
+            POP-UP книга о насекомых и их жизни
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">3489 ₽</span>
+            <span class="cost"><b>2966 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image__book-wrapper" src="images/book22.png" alt="Анотомия человека" />
+          </a>
+          <span class="text book-item-text">
+            Всё-всё о теле человека. Энциклопедия сверхкрупного формата
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">2759 ₽</span>
+            <span class="cost"><b>2345 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image__book-wrapper" src="images/book23.png" alt="Динозавры" />
+          </a>
+          <span class="text book-item-text">
+            Всё-всё о динозаврах. Реалистичные 3D-иллюстрации и сверхкрупный формат
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">3176 ₽</span>
+            <span class="cost"><b>2700 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book24.png" alt="Новогодний адвент с игрой" />
+          </a>
+          <span class="text book-item-text">
+            Адвент с окошками + игра-ходилка
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">1279 ₽</span>
+            <span class="cost"><b>1087 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book16.png" alt="Ёлка, пряники, подарки" />
+          </a>
+          <span class="text book-item-text">
+            Уютные зимние истории о чудесах и пряничных человечках
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">910 ₽</span>
+            <span class="cost"><b>774 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image__book-wrapper" src="images/book25.png" alt="Йети, камера, мотор" />
+          </a>
+          <span class="text book-item-text">
+            Новые зимние приключения Йети
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">910 ₽</span>
+            <span class="cost"><b>774 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image__book-wrapper" src="images/book26.png" alt="Камни, минералы и металлы" />
+          </a>
+          <span class="text book-item-text">
+            О полезных ископаемых разных континентов
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">1056 ₽</span>
+            <span class="cost"><b>898 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image_type_book image__book-wrapper" src="images/book27.png" alt="Волшебный декабрь" />
+          </a>
+          <span class="text book-item-text">
+            Предновогоднее путешествие в волшебный лес
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">1223 ₽</span>
+            <span class="cost"><b>1040 ₽</b></span>
+          </div>
+        </div>
+        <div class="book-list__item">
+          <a class="home-page__link" href="#">
+            <p class="text label label_theme_promotion">АКЦИЯ</p>
+            <img width="200px" height="300px" class="image image__book-wrapper" src="images/book28.png" alt="Всё про новый год" />
+          </a>
+          <span class="text book-item-text">
+            История Нового года с Чевостиком
+          </span>
+          <div class="book-list__cost">
+            <span class="cost cost_strikethrough">1015 ₽</span>
+            <span class="cost"><b>863 ₽</b></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="page_gap_m">
+      <div class="pagination__container">
+        <div class="pagination__slide page__flex-wrapper" id="Slide_1">
+          <img width="720px" height="447px" class="image pagination__image" src="images/Slides-about-company-01.jpg" alt="First slide about company">
+          <div class="text__container">
+            <h3 class="text title-35 title">Об издательстве</h3>
+            <p class="text text-20">
+              Мы начинали в 2005 году как бизнес-издательство. Сейчас у нас выходят книги на десятки <a
+                href="#">тематик</a>. Все они помогают развиваться. Детям и взрослым, по всем направлениям <a
+                href="#">колеса жизни</a>.
+            </p>
+            <p class="text text-20">
+              У нас есть мечта: Мы будем издавать крутые книги → Книги начнут менять людей → Люди изменят мир.
+            </p>
+            <p class="text text-20">
+              Мы продаем <a href="#">электронные</a> и <a href="#">бумажные</a> книги — удобно и вежливо. В каждой
+              посылке от нас книга в подарок и свежее письмо. Наш телефон отвечает даже поздно вечером и в выходные.
+            </p>
+          </div>
+        </div>
+        <div class="pagination__slide  page__flex-wrapper" id="Slide_2">
+          <img width="720px" height="447px" class="image pagination__image" src="images/Slides-about-company-02.jpg" alt="Second slide about company">
+          <div class="text__container">
+            <h3 class="text title-35 title">Neque porro quisquam</h3>
+            <p class="text text-20">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sit amet felis vitae ultrices. Quisque
+              elit velit, blandit at varius at, posuere sed justo.
+            </p>
+            <p class="text text-20">
+              Integer vehicula mauris in enim consectetur condimentum et varius nunc. Aliquam ipsum tellus, sodales quis
+              leo at, dapibus efficitur tortor. Cras at pretium enim, et ornare nulla. Integer quis consequat nisi, et
+              fermentum lectus.
+            </p>
+            <p class="text text-20">
+              Aliquam mauris eros, iaculis sed sodales a, bibendum commodo nunc. Pellentesque vitae venenatis neque, eu
+              pellentesque ipsum. Etiam non massa facilisis, dictum lorem non, condimentum nisi.
+            </p>
+          </div>
+        </div>
+        <div class="pagination__slide page__flex-wrapper" id="Slide_3">
+          <img width="720px" height="447px" class="image pagination__image" src="images/Slides-about-company-03-1.jpg" alt="Third slide about company">
+          <div class="text__container">
+            <h3 class="text title-35 title">Nullam ut blandit tortor</h3>
+            <p class="text text-20">
+              Nulla facilisi. Ut ullamcorper nisl id velit facilisis, eu elementum ante aliquet. Integer sed diam mi.
+              Aenean euismod neque non elementum feugiat.
+            </p>
+            <p class="text text-20">
+              Etiam convallis imperdiet arcu vitae luctus. Duis ornare erat fermentum purus mattis, in tristique tellus
+              pulvinar.
+            </p>
+            <p class="text text-20">
+              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis sodales
+              tortor luctus, ultrices quam id, molestie turpis.
+            </p>
+          </div>
+        </div>
+        <div class="pagination__slide page__flex-wrapper" id="Slide_4">
+          <img width="720px" height="447px" class="image pagination__image" src="images/Slides-about-company-04.jpg" alt="Fourth slide about company">
+          <div class="text__container">
+            <h3 class="text title-35 title">Nulla facilisi</h3>
+            <p class="text text-20">
+              Vestibulum turpis ex, porta a blandit eu, ultricies vel nunc. Curabitur pretium eget libero at sagittis.
+              Praesent pellentesque dui vitae nulla rutrum cursus vel non eros.
+            </p>
+            <p class="text text-20">
+              Etiam ut nunc id metus ultricies dignissim. Donec gravida nulla ut tellus varius posuere. Etiam dignissim,
+              ante vitae semper mattis, dui justo condimentum nisl, ac blandit lorem ex volutpat massa. In tempus
+              efficitur leo, tincidunt rutrum augue blandit vel.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="page__flex-wrapper">
+        <a href="#Slide_1">
+          <div class="pagination_type_dot"></div>
+        </a>
+        <a href="#Slide_2">
+          <div class="pagination_type_dot"></div>
+        </a>
+        <a href="#Slide_3">
+          <div class="pagination_type_dot"></div>
+        </a>
+        <a href="#Slide_4">
+          <div class="pagination_type_dot"></div>
+        </a>
+      </div>
+    </div>
+    </div>
+    <section class="page__margin-wrapper_ver">
+      <h2 class="text title-35 title">Рассылка о лучших новинках МИФа</h2>
+      <p class="text text-800">
+        Выбираем лучшие из новых книг и отправляем вам 1 раз в неделю. В первом письме дарим саммари «Не мешай себе
+        жить» и «Суперобучение».
+      </p>
+      <div class="page__flex-wrapper">
+        <div class="home-page__book-envelope">
+          <img width="200px" height="275px" class="image" src="images/book29.png" alt="Книга Выбор" />
+          <a href="#" class="text book-item-text">
+            Выжившему от выжившего. История узницы концлагеря
+          </a>
+        </div>
+        <div class="home-page__book-envelope">
+          <img width="200px" height="275px" class="image" src="images/book30.png" alt="Книга HOME BODY" />
+          <a href="#" class="text book-item-text">
+            Важен не стиль, важна история. Как создать дом с вашим характером
+          </a>
+        </div>
+        <div class="home-page__book-envelope">
+          <img width="200px" height="275px" class="image" src="images/book31.png" alt="Книга Это Норм" />
+          <a href="#" class="text book-item-text">
+            Карьерные травмы: что делать, если ничего не хочется
+          </a>
+        </div>
+        <div class="home-page__book-envelope">
+          <img width="200px" height="275px" class="image" src="images/book32.png" alt="Книга Тераннозавр Рекс" />
+          <a href="#" class="text book-item-text">
+            Тираннозавр рекс на вашей полке: книга с 3D-иллюстрациями и клапанами
+          </a>
+        </div>
+      </div>
+      <form class="form_style_peach page__flex-wrapper form__wrapper">
+        <span class="text-20">Электронная почта</span>
+        <div class="input__wrapper">
+          <input class="input" type="email">
+          <span class="text text-info form__text">
+            Например, dulsineya@gmail.com Без спама и смс
+          </span>
+        </div>
+        <button class="button button_type_common button_size_m button_color_primary">Подписаться</button>
+      </form>
+    </section>
+    <section class="page__margin-wrapper_ver">
+      <h2 class="text title-35 title"><a href="#">Последние записи в блоге</a></h2>
+      <div class="page__flex-wrapper page__news-list">
+        <div class="home-page__icon-wrapper">
+          <img width="390px" height="250px" class="image image__margin-container banner__image" src="images/1.jpg" alt="Как перестать ошибаться">
+          <span class="text text-letter-spacing">САМОРАЗВИТИЕ</span>
+          <a href="#" class="text text-info">
+            Крайний или последний? На вынос или навынос? Также или так же? Как перестать ошибаться
+          </a>
+        </div>
+        <div class="home-page__icon-wrapper">
+          <img width="390px" height="250px" class="image image__margin-container banner__image" src="images/2.png" alt="Октябрь взрослого человека">
+          <span class="text text-letter-spacing">ТВОРЧЕСТВО</span>
+          <a href="#" class="text text-info">
+            Октябрь взрослого человека. Карточки по книге «Взрослая жизнь от Ааа до Я»
+          </a>
+        </div>
+        <div class="home-page__icon-wrapper">
+          <img width="390px" height="250px" class="image image__margin-container banner__image" src="images/3.png"
+            alt=" 5 фотосоветов Анселя Адамса">
+          <span class="text text-letter-spacing">ТВОРЧЕСТВО</span>
+          <a href="#" class="text text-info">
+            5 фотосоветов Анселя Адамса — одного из самых знаменитых фотографов ХХ века
+          </a>
+        </div>
+        <div class="home-page__icon-wrapper">
+          <img width="390px" height="250px" class="image image__margin-container banner__image" src="images/4.png"
+            alt="Тест. Кто вы: воздух, огонь или земля?">
+          <span class="text text-letter-spacing">САМОРАЗВИТИЕ</span>
+          <a href="#" class="text text-info">
+            Тест. Кто вы: воздух, огонь или земля? И в чем ваше предназначение?
+          </a>
+        </div>
+      </div>
+    </section>
+    </div>
+    <div class="page__flex-wrapper page__margin-wrapper_ver">
+      <button class="button button_type_common button_color_secondary button_size_s">
+        <img width="19px" height="16px" class="image image_size_extra-s" src="images/vk.png" alt="VK иконка" />
+        Подeлиться
+      </button>
+      <button class="button button_type_common button_color_secondary button_size_s">
+        <img width="19px" height="16px" class="image image_size_extra-s" src="images/twitter.png" alt="Twitter иконка" />
+        Твитнуть
+      </button>
+      <button class="button button_type_common button_color_secondary button_size_s">
+        <img width="19px" height="16px" class="image image_size_extra-s" src="images/telegram.png" alt="Telegram иконка" />
+        Подeлиться
+      </button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__line">
+      <a class="footer_link-decoration-none footer__text footer__text-wrapper" href="#">Главная</a>
+      <span class="footer__text">
+        Издательство «МИФ»
+      </span>
+    </div>
+    <div class="page__flex-wrapper">
+      <div class="footer__wrapper">
+        <nav class="nav">
+          <ul class="nav__list  footer__links-bar">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Книги</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Курсы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Авторам</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image_size_extra-s" src="images/menu-icon.png" alt="gift menu item" />
+                Подарочные карты
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Штуки</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Игры</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Блог МИФа</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">МИФ для бизнеса</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Мероприятия</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Книжные боксы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Скидки</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Развлечения</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Об издательстве</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="nav">
+          <ul class="nav__list  footer__links-bar">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Аудиокниги</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Проза</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Детство</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Психология</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Бизнес</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Культура</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Саморазвитие</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Лайфстайл</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Творчество</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Комиксы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Здоровье и медицина</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Научпоп</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Подарки</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Маркетинг</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="nav">
+          <ul class="nav__list footer__links-bar">
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/vk.png" alt="Vk icon" />
+                Вконтакте
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/vk.png" alt="Vk icon" />
+                Детский
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/vk.png" alt="Vk icon" />
+                Творческий
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/vk.png" alt="Vk icon" />
+                Научпоп
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/vk.png" alt="Vk icon" />
+                Комиксы
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/vk.png" alt="Vk icon" />
+                Kumon
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="nav">
+          <ul class="nav__list footer__links-bar">
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/ok.png" alt="Ok icon" />
+                Вконтакте
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/ok.png" alt="Ok icon" />
+                Детский
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/ok.png" alt="Ok icon" />
+                Творческий
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/telegram2.png" alt="Telegram icon" />
+                Научпоп
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/telegram2.png" alt="Telegram icon" />
+                Комиксы
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/twitter.png" alt="Twitter icon" />
+                Kumon
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img width="19px" height="16px" class="image image_size_extra-s" src="images/youtube-play.png" alt="YouTube icon" />
+                Kumon
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="nav">
+          <ul class="nav__list footer__links-bar">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Новинки</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Бестселлеры</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Скоро в продаже</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Электронные книги</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Аудиокниги</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Подарочные книги</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Дерево знаний</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <span class="text page__flex-wrapper">
+      Оставляя свои персональные данные на этой страницу, вы соглашаетесь:
+      <a href="#">с пользовательским соглашением,</a>
+      <a href="#">с политикой конфиденцальности</a>
+    </span>
+  </footer>
+</body>
+
+</html>

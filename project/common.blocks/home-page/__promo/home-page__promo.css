@@ -1,0 +1,11 @@
+.home-page__promo {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+
+@media (max-width: 960px) {
+    .home-page__promo {
+        max-height: 240px;
+    }
+}
